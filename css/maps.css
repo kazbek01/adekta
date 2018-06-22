@@ -1,0 +1,65 @@
+
+.maplLeftSide {
+    padding-top: 20px;
+    width: 15%;
+    float: left;
+    min-width: 130px;
+}
+
+.mapLeftSideManual {
+    margin: 20px 20px 20px;
+}
+.countryList {
+    margin-top: 20px;
+    margin-left: 25px;
+    line-height: 25px;
+}
+
+.countryList a:before {
+    content:"";
+    float:left;
+    width: 24px; /*СЌС‚Рё СЂР°Р·РјРµСЂС‹ РѕРїСЂРµРґРµР»СЏСЋС‚ РѕР±Р»Р°СЃС‚СЊ, РєРѕС‚РѕСЂР°СЏ Р±СѓРґРµС‚ В«РІС‹СЂРµР·Р°РЅР°В» РёР· СЃРїСЂР°Р№С‚Р°*/
+    height: 24px;
+    margin:0 3px 0 0;
+    background: #fff url(/img/icons/gmapsmarker_w15.png) 0 0 no-repeat;
+}
+
+.countryList a:hover {
+    color: #529AD5;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.storelocator-marker {
+    line-height: 20px;
+}
+
+.GM_markerLink a {
+    text-decoration: none;
+    color: #46acf4;
+    font-weight: bold;
+}
+.mapLeftSideContactBtn {
+    width: 123px;
+    height: 50px;
+    color: #111;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #529AD5;
+    border-radius: 4px;
+    margin: 0px auto 0;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.mapLeftSideContactBtn:hover {
+    background: #529AD5;
+    color: #fff;
+}
+
