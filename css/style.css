@@ -4842,6 +4842,23 @@ header h3 {
     margin: 15px auto 0;
     font-weight: normal;
 }
+.news-box p, .news-box a{
+    margin: 5px auto 0;
+}
+.news-box .block-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.news-box .p-weight{
+    font-weight: bold;
+}
+.news-list{
+    padding-left: 30px;
+}
+.news-list li{
+    color: #555;
+    font-size: 14px;
+}
 .areas h1 {
     text-align: center;
     font-size: 32px;
@@ -4865,6 +4882,9 @@ th{
 .usluga-table{
     margin-top: 20px;
 }
+.ad-table td{
+    text-align: center;
+}
 .areas h3 {
     width: 515px;
     color: #555;
@@ -4874,8 +4894,8 @@ th{
     margin: 15px auto 0;
     font-weight: normal
 }
-.table-long{
-
+.bg-tr{
+    background-color: #0069B4;
 }
 .table-long th{
     text-align: center;
@@ -4887,7 +4907,8 @@ th{
 }
 
 .areas_block_itm {
-    width: 48%;
+    width: 374px;
+    /*width: 48%;*/
     height: 468px;
     border: 1px solid #e5e5e5;
     float: left;
@@ -4926,19 +4947,28 @@ th{
 
 .areas_block_itm-desc {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 20px;
     color: #555;
     text-align: center;
-    width: 500px;
-    margin: 15px auto 0px
+    width: 335px;
+    margin: 15px auto 0px;
+    text-overflow: ellipsis;
+    height: 66px;
+    overflow-y: hidden;
 }
 .areas_block_itm-img img {
-    width: 100%;
+    object-fit: cover;
 }
 .mfp-figure {
     position: relative
 }
-
+.serv_list{
+    list-style-type: none;
+}
+.serv_list li{
+    color: #555;
+    font-size: 14px;
+}
 .news {
     background: url(../img/news/news_bg.jpg) no-repeat center center;
     background-attachment: fixed;
@@ -4947,7 +4977,8 @@ th{
     padding-top: 45px;
     min-height: 765px;
     padding-bottom: 87px;
-    position: relative
+    position: relative;
+    margin-top: 30px;
 }
 
 .news_over {
@@ -5026,7 +5057,8 @@ th{
 
 .news_block_itm-img img {
     max-width: 100%;
-    height: auto
+    max-height: 100%;
+    object-fit: cover;
 }
 
 .news_block_itm-img:hover .news_block_itm-over {
@@ -5828,32 +5860,32 @@ head_lawyers .top_nav ul li a .active {
     margin-left: 45px
 }
 
-.ab_slider .slide1 {
-    background: url(../img/onas2.jpg) no-repeat center top;
-    width: 100%;
-    height: 808px;
-    background-size: cover;
-    padding-top: 316px
-}
+/*.ab_slider .slide1 {*/
+    /*background: url(../img/onas2.jpg) no-repeat center top;*/
+    /*width: 100%;*/
+    /*height: 808px;*/
+    /*background-size: cover;*/
+    /*padding-top: 316px*/
+/*}*/
 
-.ab_slider .slide2 {
-    background: url(../img/onas1.jpg) no-repeat center top;
-    width: 100%;
-    height: 808px;
-    background-size: cover;
-    padding-top: 316px
-}
+/*.ab_slider .slide2 {*/
+    /*background: url(../img/onas1.jpg) no-repeat center top;*/
+    /*width: 100%;*/
+    /*height: 808px;*/
+    /*background-size: cover;*/
+    /*padding-top: 316px*/
+/*}*/
 
-.ab_slider .slide3 {
-    background: url(../img/law_slide3.jpg) no-repeat center center;
-    width: 100%;
-    height: 808px;
-    background-size: cover;
-    padding-top: 316px
-}
+/*.ab_slider .slide3 {*/
+    /*background: url(../img/law_slide3.jpg) no-repeat center center;*/
+    /*width: 100%;*/
+    /*height: 808px;*/
+    /*background-size: cover;*/
+    /*padding-top: 316px*/
+/*}*/
 
 .cont_about {
-    padding-top: 48px
+    padding-top: 120px;
 }
 
 .cont_about h1 {
@@ -5917,7 +5949,9 @@ head_lawyers .top_nav ul li a .active {
     width: 111px;
     margin: 0px auto 0
 }
-
+.serv_block_itm-img img{
+    object-fit: contain;
+}
 .about_serv .serv_block_itm-title {
     color: #444;
     font-size: 15px;
@@ -6745,13 +6779,13 @@ ul.prac_list2 p:hover {
         width: 360px
     }
 
-    .areas_block {
-        width: 100%
-    }
+    /*.areas_block {*/
+        /*width: 100%*/
+    /*}*/
 
-    .areas_block_itm {
-        width: 48%;
-    }
+    /*.areas_block_itm {*/
+        /*width: 48%;*/
+    /*}*/
 
     .att_block {
         width: 100%
@@ -6761,9 +6795,9 @@ ul.prac_list2 p:hover {
         font-size: 0
     }
 
-    .areas_block_itm-img img {
-        width: 100%;
-    }
+    /*.areas_block_itm-img img {*/
+        /*width: 100%;*/
+    /*}*/
 
     footer .copy {
         margin: 52px 0px 0px 0px
@@ -6896,13 +6930,13 @@ ul.prac_list2 p:hover {
         width: 290px
     }
 
-    .areas_block {
-        width: 100%
-    }
+    /*.areas_block {*/
+        /*width: 100%*/
+    /*}*/
 
-    .areas_block_itm {
-        width: 48%;
-    }
+    /*.areas_block_itm {*/
+        /*width: 48%;*/
+    /*}*/
 
     .att_block {
         width: 100%
@@ -6912,9 +6946,9 @@ ul.prac_list2 p:hover {
         font-size: 0
     }
 
-    .areas_block_itm-img img {
-        width: 100%;
-    }
+    /*.areas_block_itm-img img {*/
+        /*width: 100%;*/
+    /*}*/
     .areas_block_itm-desc {
         width: 100%;
     }
@@ -7149,7 +7183,7 @@ ul.prac_list2 p:hover {
     }
 
     .areas_block_itm {
-        width: 48%;
+        width: 308px;
     }
 
     .areas_block_itm-desc {
@@ -7167,7 +7201,7 @@ ul.prac_list2 p:hover {
     }
 
     .areas_block_itm-img img {
-        width: 100%;
+        max-width: 100%;
     }
 
     .att_block_itm {
@@ -7412,9 +7446,9 @@ ul.prac_list2 p:hover {
         width: 100%
     }
 
-    .areas_block_itm {
-        width: 48%;
-    }
+    /*.areas_block_itm {*/
+        /*width: 48%;*/
+    /*}*/
 
     .areas_block_itm-desc {
         margin: 19px 0px 0px;
